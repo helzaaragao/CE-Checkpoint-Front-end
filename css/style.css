@@ -1,0 +1,41 @@
+/* lembra de começar pelo celular e ele é de max-width: 460px*/
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+.banner { 
+   width: 100vw;
+}
+
+.banner img { 
+    width: 100%; 
+    height: 554px;
+}
+
+.video{ 
+    width: 420px; 
+    height: 710px;
+    display: flex; 
+    align-items: center;
+}
+
+footer { 
+    width: 100vw;
+    height: 695px;
+    background-color: #16AEBB;
+}
+
+footer .linkedin a img  { 
+    width: 141px; 
+    height: 141px;
+    border-radius: 50%;
+}
+
+footer .github a img { 
+   width: 141px; 
+   height: 141px;
+   border-radius: 50%;
+}
