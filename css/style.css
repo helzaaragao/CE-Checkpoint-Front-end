@@ -5,37 +5,148 @@
     padding: 0; 
     box-sizing: border-box;
 }
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        background-image: url(/CE-Checkpoint-Front-end/assets/banner.png);
+        height: 30.44rem;
+    }
 
-.banner { 
-   width: 100vw;
-}
+    main{
+        background-image: url(/CE-Checkpoint-Front-end/assets/Melhores-praias-do-Ceara-scaled\ 2.png);
+    }
 
-.banner img { 
-    width: 100%; 
-    height: 554px;
-}
+    .nav-bar{
+        display: flex;
+        flex-direction: column;
+    }
 
-.video{ 
-    width: 420px; 
-    height: 710px;
-    display: flex; 
-    align-items: center;
-}
+    .nav-bar-button{
+        background: #16AEBB;
+        color: #000000;
+        border-radius: 5rem;
+        padding: 1rem;
+        margin-bottom: 3rem;
+        border: none;
 
-footer { 
-    width: 100vw;
-    height: 695px;
-    background-color: #16AEBB;
-}
 
-footer .linkedin a img  { 
-    width: 141px; 
-    height: 141px;
-    border-radius: 50%;
-}
 
-footer .github a img { 
-   width: 141px; 
-   height: 141px;
-   border-radius: 50%;
-}
+    }
+    
+    .banner { 
+        width: 100vw;
+        display: none;
+     }
+     
+     .banner img { 
+         width: 100%; 
+         height: 554px;
+     }
+     
+     .cards-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 90rem;
+        width: 100vw;
+     }
+
+     .cards-container h2{
+        margin-top: 2rem;
+     }
+
+     .cards{
+        width: 18.62rem;
+        height: 29.67rem;
+        font-size: 2rem;
+        text-align: justify;
+        text-align: center;
+        line-height: 3rem;
+     }
+
+     .card{
+        margin-top: 2rem;
+        border-radius: 2rem;
+
+     }
+
+    
+     .card p{
+        padding: 1rem;
+     }
+
+
+     .escravidao{
+        background-image: url(/CE-Checkpoint-Front-end/assets/meu-nome-e-liberdade-destaque1-1.png);
+
+     }
+
+     .einstein{
+        background-image: url(/CE-Checkpoint-Front-end/assets/einstein.png);
+     }
+
+     .jandaia{
+        background-image: url(/CE-Checkpoint-Front-end/assets/jandaia.png);
+     }
+     .video{ 
+         width: 23.33rem; 
+         height: 39.44rem;
+         display: flex; 
+         align-items: center;
+     }
+     
+     footer { 
+         width: 100vw;
+         height: 27.7rem;
+         background-color: #16AEBB;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: space-around;
+     }
+
+     footer h3{
+        align-self: flex-start;
+        font-size: 2.5rem;
+        margin-left: 1rem;
+     }
+     
+     footer .linkedin a img  { 
+         width: 141px; 
+         height: 141px;
+         border-radius: 50%;
+     }
+
+     footer .linkedin h4{
+        text-align: center;
+        margin-top: 0.5rem;
+     }
+     
+     footer .github a img { 
+        width: 141px; 
+        height: 141px;
+        border-radius: 50%;
+     }
+
+     footer .github h4{
+        text-align: center;
+        margin-top: 0.5rem;
+     }
+
+     @media (min-width: 460px){
+        header{
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .nav-bar{
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            width: 20rem;
+        }
+
+        .logo{}
+     }
