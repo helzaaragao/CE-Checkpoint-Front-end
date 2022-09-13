@@ -204,16 +204,44 @@ header{
      }
 
      .video { 
-      height: 800px;
+      display: flex; 
+      align-items: center;
+      height: 600px;
      }
 
      .video iframe { 
-      width: 1077px; 
-      height: 534px;
+      width: 850px; 
+      height: 434px;
       display: flex;
       align-items: center;
       justify-content: center;
+      border-radius: 2%;
      }
+
+     footer { 
+      width: 100vw;
+      height: 300px;
+     }
+
+     .redes { 
+      width: 80%;
+      display: flex; 
+      justify-content: space-between;
+     }
+
+   .linkedin .img { 
+      width: 350px;
+      display: flex; 
+      justify-content: space-between;
+   }
+    
+   .github .img { 
+      width: 350px;
+      display: flex; 
+      justify-content: space-between;
+   }
+
+   
      
 
 
