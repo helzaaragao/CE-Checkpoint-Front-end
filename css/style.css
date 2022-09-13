@@ -1,9 +1,10 @@
-/* lembra de começar pelo celular e ele é de max-width: 460px*/
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Poppins&display=swap');
 
 * { 
     margin: 0; 
     padding: 0; 
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
@@ -51,7 +52,7 @@ header{
 }
 
 .text-banner h2 { 
-   font-size: 1.5em;
+   font-size: 1.2em;
    color: #1E1E1E;
    background-color: #16AEBB;
    margin: 20px;
@@ -133,6 +134,7 @@ header{
         align-self: flex-start;
         font-size: 2.5rem;
         margin-left: 1rem;
+        font-family: 'Karla', sans-serif;
      }
      
      footer .linkedin a img  { 
@@ -141,9 +143,10 @@ header{
          border-radius: 50%;
      }
 
-     footer .linkedin h4{
+     footer .redes .linkedin h4{
         text-align: center;
         margin-top: 0.5rem;
+       
      }
      
      footer .github a img { 
@@ -174,6 +177,13 @@ header{
 }
 
 @media (min-width: 900px) { 
+
+   body { 
+      width: 100vw;
+      background-image: url(/assets/body.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+   }
      header{ 
       position: relative;
      }
