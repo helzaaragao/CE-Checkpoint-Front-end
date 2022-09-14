@@ -8,7 +8,7 @@
 }
 
 body{
-   background-image: url(/assets/imagebody.png);
+   background-image: url(./assets/imagebody.png);
    background-size: cover;
 }
 
@@ -104,15 +104,15 @@ header{
 
 
 .escravidao{
-     background-image: url(/assets/escravidao.png);
+     background-image: url(./assets/escravidao.png);
 }
 
 .einstein{
-   background-image: url(/assets/einstein.png);
+   background-image: url(./assets/einstein.png);
 }
 
 .jandaia{
-    background-image: url(/assets/jandaia.png);
+    background-image: url(./assets/jandaia.png);
 }
 
 .video{ 
@@ -172,7 +172,7 @@ header{
 @media (min-width: 900px) { 
 
    body { 
-      background-image: url(/assets/body.png);
+      background-image: url(./assets/body.png);
       background-size: cover;
       background-repeat: no-repeat;
    }
@@ -213,7 +213,7 @@ header{
      .text-banner { 
         width: 100vw;
         height: 548px;
-        background-image: url(/assets/banner.png);
+        background-image: url(./assets/banner.png);
         background-size: cover;
         display: flex; 
         align-items: center;
