@@ -192,8 +192,10 @@ header{
    .title{
       display: block;
       position: relative;
-      left: 15rem;
+      left: 14rem;
       font-family: 'Karla', sans-serif;
+      color: #005834;
+      font-size: 1.5rem ;
    }
 
      .nav-bar{
