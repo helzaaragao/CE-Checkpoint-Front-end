@@ -23,6 +23,10 @@ header{
      height: 30.44rem;
 }
 
+.title{
+   display: none;
+}
+
 .nav-bar{
    display: flex;
    flex-direction: column;
@@ -31,7 +35,9 @@ header{
    background: #16AEBB;
    color: #000000;
    border-radius: 5rem;
-   padding: 1rem;
+   width: 11.5rem;
+   height: 4.5rem;
+   font-size: 24px;
    margin-bottom: 3rem;
    border: none;
 }
@@ -65,7 +71,7 @@ header{
    display: flex;
    flex-direction: column;
    align-items: center;
-   height: 90rem;
+   height: 120rem;
    width: 100vw;
 }
 
@@ -74,8 +80,7 @@ header{
 }
 
 .cards{
-   width: 18.62rem;
-   height: 29.67rem;
+
    font-size: 2rem;
    text-align: justify;
    text-align: center;
@@ -85,12 +90,17 @@ header{
 .card{
    margin-top: 2rem;
    border-radius: 2rem;
-
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 38rem;
+   width: 18.62rem;
+   
 }
 
     
 .card p{
    padding: 1rem;
+   text-align: center;
 }
 
 
@@ -160,22 +170,6 @@ header{
         margin-top: 0.5rem;
      }
 
-@media (min-width: 460px){
-   header{
-      flex-direction: row;
-      justify-content: space-between;
-}
-
-.nav-bar{
-   flex-direction: row;
-   justify-content: space-around;
-   align-items: center;
-   width: 20rem;
-}
-
-      
-}
-
 @media (min-width: 900px) { 
 
    body { 
@@ -186,7 +180,32 @@ header{
    }
      header{ 
       position: relative;
-     }
+      height: 11.83rem;
+      flex-direction: row;
+      justify-content: space-between;
+      background: #16AEBB;
+   }
+
+   .logo{
+      position: absolute;
+   }
+   .title{
+      display: block;
+      position: relative;
+      left: 15rem;
+      font-family: 'Karla', sans-serif;
+   }
+
+     .nav-bar{
+      flex-direction: row;
+      align-items: center;
+      margin: 2rem 5rem 0 0;
+   }
+      .nav-bar-button{
+         border: 0.1rem solid #1E1E1E;
+         margin-right: 1rem;
+   }
+
      .banner { 
       display: none;
      }
@@ -212,7 +231,21 @@ header{
      .text-banner h2 br { 
       display: none;
      }
+     
+     .cards-container{
+      height:40rem ; 
+     }
+     .cards{
+      display: flex;
+      width: 100vw;
+      justify-content: center;
+     }
 
+     .card{
+      height: 32rem;
+      width: 335px;
+      margin: 2.22rem;
+     }
      .video { 
       display: flex; 
       align-items: center;
