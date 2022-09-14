@@ -8,14 +8,13 @@
 }
 
 body{
-   width: 100vw;
    background-image: url(/assets/imagebody.png);
    background-size: cover;
 }
 
 header{
-     width: 100%;
      position: absolute;
+     width: 100vw;
      display: flex;
      flex-direction: column;
      justify-content: flex-start;
@@ -67,12 +66,12 @@ header{
    text-align: justify;
 }
      
-.cards-container{
+.cards-container{  
    display: flex;
    flex-direction: column;
    align-items: center;
-   height: 120rem;
    width: 100vw;
+   height: 120rem; 
 }
 
 .cards-container h2{
@@ -173,7 +172,6 @@ header{
 @media (min-width: 900px) { 
 
    body { 
-      width: 100vw;
       background-image: url(/assets/body.png);
       background-size: cover;
       background-repeat: no-repeat;
